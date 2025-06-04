@@ -1,12 +1,12 @@
 //-------------------[ BOT SETTINGS ]------------------// 
 
-// @project_name : KANGO-XMD 
-// @author : Hector 
+// @project_name : 𓆩𝕭𝖔𝖐𝖔 𝕳𝖆𝖗𝖆𝖒𓆪 
+// @author : 𓆩𝕭𝖔𝖐𝖔 𝕳𝖆𝖗𝖆𝖒𓆪
 // @telegram : http://t.me/official_kango
 // @github : OfficialKango
-// @whatsapp : +233509977126
+// @whatsapp : +2349047650772
 
-//----------------------[ KANGO-XMD ]----------------------//
+//----------------------[ 𓆩𝕭𝖔𝖐𝖔 𝕳𝖆𝖗𝖆𝖒𓆪 ]----------------------//
 
 const fs = require('fs')
 const { color } = require('./lib/color')
@@ -16,7 +16,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 //--------------------[ SESSION ID ]----------------------//
 
 global.SESSION_ID = process.env.SESSION_ID || '' 
-//Enter your KANGO-XMD session id here; must start with KANGO~
+//Enter your 𓆩𝕭𝖔𝖐𝖔 𝕳𝖆𝖗𝖆𝖒𓆪 session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
 
@@ -24,25 +24,25 @@ global.botname = process.env.BOT_NAME || 'KANGO-XMD'
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '233509977126' 
+global.ownernumber = process.env.OWNER_NUMBER || '2349047650772' 
 
 //--------------------[ SUDO ]--------------------------//
 
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['233509977126', '233577860202'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['2349047650772', '2349047650772'];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Hector Manuel' 
+global.ownername = process.env.OWNER_NAME || '𓆩𝕭𝖔𝖐𝖔 𝕳𝖆𝖗𝖆𝖒𓆪' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "KANGO-XMD" 
+global.packname = process.env.STICKER_PACK_NAME || "𓆩𝕭𝖔𝖐𝖔 𝕳𝖆𝖗𝖆𝖒𓆪" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "Hector" 
+global.author = process.env.STICKER_AUTHOR_NAME || "HEis" 
 
 //----------------[ GITHUB DATABASE ]-----------------//
 
@@ -55,7 +55,7 @@ global.plink = process.env.PLINK || "https://youtube.com/@official_manuel"
 
 //------------------[ WATERMARK ]--------------------//
 
-global.wm = process.env.GL_WM || "> ©KANGO-XMD"
+global.wm = process.env.GL_WM || "> ©𓆩𝕭𝖔𝖐𝖔 𝕳𝖆𝖗𝖆𝖒𓆪"
 
 //---------------------[ REPLIES ]-----------------------//
 
@@ -78,4 +78,4 @@ fs.watchFile(file, () => {
   require(file)
 })
 
-//----------------------[ KANGO-XMD ]----------------------//
+//----------------------[ KANGO-𝕳𝖆𝖗𝖆𝖒𓆪mD ]----------------------//
